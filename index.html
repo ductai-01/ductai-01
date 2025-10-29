@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lê Đức Tài</title>
+    <link rel="stylesheet" href="css/style_ldt.css" />
+  </head>
+  <body>
+    <script src="js/script_ldt.js"></script>
+    <header class="ldt_header">
+      <nav class="ldt_nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="ldt_main">
+      <section class="ldt_banner">
+        <img
+          src="https://shop.sg.canon/media/wysiwyg/EOS_R50_Web_Banner__Eshop_1280_x_568_FA.jpg"
+          alt="Digital R50"
+        />
+      </section>
+
+      <section class="ldt_info_section">
+        <div class="ldt_info_logo">
+          <p>Compatibility:</p>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMtVF1jRC9Mnilbtjr3_CK4hAT7Gn_eQL_A&s"
+            alt="Windows"
+          />
+          <img src="images/mac.jpg" alt="Mac" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/USB_icon.svg" alt="USB" />
+        </div>
+      </section>
+
+      <section class="ldt_form_section">
+        <form id="ldt_form">
+          <div>
+            <label>Email</label>
+            <input type="email" id="ldt_email" required />
+            <label>Password</label>
+            <input type="password" id="ldt_password" required />
+          </div>
+
+          <div>
+            <label>Address</label>
+            <input type="text" placeholder="1234 Main St" required />
+          </div>
+
+          <div>
+            <label>Address 2</label>
+            <input type="text" placeholder="Apartment, studio, or floor" />
+          </div>
+
+          <div class="ldt_row">
+  <div>
+    <label>City</label>
+    <input type="text" placeholder="Enter city" required />
+  </div>
+  <div>
+    <label>State</label>
+    <select required>
+      <option value="">Choose...</option>
+      <option value="HN">Hà Nội</option>
+      <option value="HCM">TP. Hồ Chí Minh</option>
+    </select>
+  </div>
+  <div>
+    <label>Zip</label>
+    <input type="text" placeholder="100000" required />
+  </div>
+</div>
+
+          <div>
+            <input type="checkbox" id="ldt_check" />
+            <label for="ldt_check">Check me out</label>
+          </div>
+          <button type="submit">Sign in</button>
+          <hr />
+        </form>
+      </section>
+    </main>
+    <footer class="ldt_footer">
+      <p>Copyright &copy; Sitename.com. All rights reserved. Design by Stylish <a href="#">Website Templates</a>.</p>
+  </body>
+</html>
